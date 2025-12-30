@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'app/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav>
+        <div class="logo">
+            <!-- <img src="../static/app/images/img2.webp" alt=""> -->
+            <p>G Swetha</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="textarea textmode">
+            <h2 class="typing">Hey! I'm Swetha,</h2>
+            <h3>Full-Stack Developer</h3>
+            <p style="font-family: Smooch Sans, sans-serif;">I am a Full-stack developers work at the crossroads of
+                design and infrastructure, building products that run smoothly from concept to launch.</p>
+            <div class="btn">
+                <button>My project</button>
+                <button id="download">
+                    <a href="{% static 'app/G.Swetha PFSD.pdf' %}" download="G.Swetha PFSD.pdf" class="download">
+                        CV Download
+                    </a>
+                </button>
+            </div>
+        </div>
+    </main>
+    <section id="about">
+
+        <div class="textarea profile">
+            <img src="../static/app/images/Hero_right_img.png" alt="">
+            <!-- <img src="../static/app/images/picture.png" alt=""> -->
+        </div>
+        <div class="textarea" style="padding-top: 140px;">
+            <h1>About Us</h2>
+                <p style="font-family: Fjalla One, sans-serif;color:#0b4549">A small river named Duden flows by their place and
+                    supplies it with the necessary regelialia.</p>
+                <div class="about_content">
+                    <div class="about_mode">
+                        <span>NAME :</span>
+                        <span style="color: #1b6e74da;">G Swetha</span>
+                    </div>
+                    <div class="about_mode">
+                        <span>Phone :</span>
+                        <span style="color: #1b6e74da;">9488732542</span>
+                    </div>
+                    <div class="about_mode">
+                        <span>Date of Birth :</span>
+                        <span style="color: #1b6e74da;">Dec 09 2002</span>
+                    </div>
+                    <div class="about_mode">
+                        <span>Email :</span>
+                        <span style="color: #1b6e74da;">gunaram194@gmail.com</span>
+                    </div>
+                    <div class="about_mode">
+                        <span>Address :</span>
+                        <span style="color: #1b6e74da;">Karaikudi</span>
+                    </div>
+
+                </div>
+        </div>
+
+    </section>
+    <div class="skill_mode" id="skill">
+        <h2>My Skills</h2>
+        <p class="skilltxt" style="color:#0b4549">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    </div>
+    <div class="progress-container">
+        <div class="progressbar progress-box">
+            <div class="label">HTML</div>
+            <div class="circular-progress html progress-box" style="--progress: 340deg; ">
+                <div class="progress-value">98%</div>
+            </div>
+
+        </div>
+        <div class="progressbar progress-box">
+            <div class="label">CSS</div>
+            <div class="circular-progress css progress-box" style="--progress: 300deg;">
+                <div class="progress-value">95%</div>
+            </div>
+
+        </div>
+
+        <div class="progressbar progress-box">
+            <div class="label">JavaScript</div>
+            <div class="circular-progress js progress-box" style="--progress: 290deg;">
+                <div class="progress-value">90%</div>
+            </div>
+
+        </div>
+        <div class="progressbar progress-box">
+            <div class="label">Python</div>
+            <div class="circular-progress python progress-box" style="--progress: 290deg;">
+                <div class="progress-value">90%</div>
+            </div>
+
+        </div>
+        <div class="progressbar progress-box">
+            <div class="label">MySql</div>
+            <div class="circular-progress MySql progress-box" style="--progress: 250deg;">
+                <div class="progress-value">80%</div>
+            </div>
+
+        </div>
+        <div class="progressbar progress-box">
+            <div class="label">Django</div>
+            <div class="circular-progress django progress-box" style="--progress: 270deg;">
+                <div class="progress-value">87%</div>
+            </div>
+
+        </div>
+    </div>
+    <!-- project -->
+    <div class="skill_mode" id="project">
+        <h2>Projects</h2>
+        <p class="skilltxt" style="color:#0b4549">QUALITY WORK RECENTLY DONE PROJECTS</p>
+    </div>
+    <div class="prjctmenu">
+        <ul>
+            <li><a href="">ALL</a></li>
+            <li><a href="">Popular</a></li>
+            <li><a href="">Latest</a></li>
+            <li><a href="">Following</a></li>
+        </ul>
+    </div>
+    <div class="progress-container">
+        <div class="prjct_categories">
+            <img src="../static/app/images/11.webp" alt="">
+            <div class=" slid">
+                <div>
+                    <p>Branding & Illustration Design</p>
+                    <p><b style="color:rgba(177, 148, 16, 0.774)">WEB DESIGN</b></p>
+                    <div style="text-align: center;"><a href=""><i class="fa fa-github" aria-hidden="true" ></i></a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="prjct_categories">
+            <img src="../static/app/images/6706104d4f29e916e4cae4b7_Img-123.webp" alt="">
+            <div class=" slid">
+                <div>
+                    <p>Branding & Illustration Design</p>
+                    <p><b style="color:rgba(177, 148, 16, 0.774)">WEB DESIGN</b></p>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="prjct_categories">
+            <img src="../static/app/images/4.webp" alt="">
+            <div class=" slid">
+                <div>
+                    <p>Branding & Illustration Design</p>
+                    <p><b style="color:rgba(177, 148, 16, 0.774)">WEB DESIGN</b></p>
+                </div>
+            </div>
+
+        </div>
+        <div class="prjct_categories">
+            <img src="../static/app/images/reg1.jpg" alt="">
+            <div class=" slid">
+                <div>
+                    <p>Branding & Illustration Design</p>
+                    <p><b style="color:rgba(177, 148, 16, 0.774)">WEB DESIGN</b></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="prjct_categories">
+            <img src="../static/app/images/web6.jpg" alt="">
+            <div class=" slid">
+                <div>
+                    <p>Branding & Illustration Design</p>
+                    <p><b style="color:rgba(177, 148, 16, 0.774)">WEB DESIGN</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="prjct_categories">
+            <img src="../static/app/images/1.jpg" alt="">
+            <div class=" slid">
+                <div>
+                    <p>Branding & Illustration Design</p>
+                    <p><b style="color:rgba(177, 148, 16, 0.774)">WEB DESIGN</b></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="skill_mode" id="contact">
+        <h2>Contact</h2>
+
+    </div>
+    <div class="form">
+        <div class="left_form">
+            <input type="text" placeholder="Your Name">
+            <input type="Email" placeholder="Your Email">
+            <input type="text" placeholder="Subject of the message">
+            <textarea row="80" col="60" placeholder="Type your message here..."></textarea>
+            <button>Send Message</button>
+
+
+        </div>
+        <div class="left_form">
+            <div class="addressbar">
+                <div class="addtxt con_icon">
+                    <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                </div>
+                <div class="addtxt">
+                    <h4>Address</h4>
+                    <p style="font-size: 17px;color: #0b4549;">Karaikudi</p>
+                </div>
+            </div>
+            <div class="addressbar">
+                <div class="addtxt con_icon">
+                    <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                </div>
+                <div class="addtxt">
+                    <h4>Phone</h4>
+                    <p style="font-size: 17px;color: #0b4549;">9488732542</p>
+                </div>
+            </div>
+            <div class="addressbar">
+                <div class="addtxt con_icon">
+                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+
+                </div>
+                <div class="addtxt">
+                    <h4>Email</h4>
+                    <p style="font-size: 17px;color: #0b4549;">gunaram194@gmail.com</p>
+                </div>
+            </div>
+            <div class="addressbar">
+                <div class="addtxt con_icon">
+                    <span><i class="fa fa-globe" aria-hidden="true"></i></span>
+                </div>
+                <div class="addtxt ">
+                    <h4>Website</h4>
+                    <p style="font-size:17;color: #0b4549;">jghjgjhulkhkljiij</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="logo">
+            <!-- <img src="../static/app/images/img2.webp" alt=""> -->
+            <p>G Swetha</p>
+        </div>
+
+        <ul class="ftr">
+            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            <li><i class="fa fa-google" aria-hidden="true"></i></li>
+        </ul>
+        <p class="ftr_txt">Copyright ©2025 All rights reserved | This template is made with <span><i
+                    class="fa fa-heart-o" aria-hidden="true"></i></span> by Swetha</p>
+    </div>
+
+
+
+
+</body>
+
+</html>
